@@ -2,7 +2,23 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+To get application on dev env, you need to clone the repo, get NPM or YARN locally. 
+To start the application, first need to install all node dependencies inside application folder.
+
+Add `.env.local` file inside root folder of app and add environment variables. 
+```bash
+NEXT_PUBLIC_BASE_URL=https://api.coingecko.com
+```
+
+To run it put next line into console:
+
+```bash
+npm i
+# or
+yarn install
+```
+
+Next you can start development server locally:
 
 ```bash
 npm run dev
@@ -12,11 +28,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+You can see the page by  `/`.
 
 ## Learn More
 
